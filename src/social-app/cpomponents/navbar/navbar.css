@@ -1,0 +1,130 @@
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  background-color: #1877f2;
+  display: flex;
+  align-items: center;
+  /* when we scrolled the page 'navbar stay' on all time */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbarLeft {
+  flex: 3;
+}
+
+.navbarLeft__logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbarLeft__logo:hover {
+  /* transform: scale(1.2); */
+  cursor: pointer;
+}
+
+.navbarCenter {
+  flex: 4;
+}
+
+.navbarCenter__searchDiv {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarCenter__searchDiv__input {
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  width: 70%;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.navbarCenter__searchDiv__input:focus {
+  opacity: 1;
+}
+
+.navbarCenter__searchDiv__icon {
+  /* font-size: 20px; ==> did not work this - beacause this is material ui */
+  font-size: 20px !important;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.navbarCenter__searchDiv__icon:hover {
+  font-size: 25px !important;
+  margin-right: 10px;
+}
+
+.navbarRight {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+/* .navbarRight__links {
+} */
+
+.navbarRight__links__link {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbarRight__links__link:hover {
+  text-decoration: underline 2px;
+}
+
+.navbarRight__icons {
+  display: flex;
+}
+
+.navbarRight__icons__iconDiv {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+}
+
+.navbarRight__icons__iconDiv:hover {
+  transform: scale(1.1);
+}
+
+.navbarRight__icons__iconDiv__badge {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: brown;
+  color: white;
+  /* position absolute for badge */
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.navbarRight__profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navbarRight__profileImage:hover {
+  transform: scale(1.1);
+}

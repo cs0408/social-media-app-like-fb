@@ -1,0 +1,114 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.77);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.77);
+}
+
+.post__wrapper {
+  padding: 10px;
+}
+
+.post__wrapper__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__wrapper__top__left {
+  display: flex;
+  align-items: center;
+}
+
+.post__wrapper__top__left__profileImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post__wrapper__top__left__userName {
+  font-style: 15px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.post__wrapper__top__left__postDate {
+  font-size: small;
+}
+
+/* .post__wrapper__top__right {
+} */
+
+.post__wrapper__center {
+  padding: 10px 0;
+}
+
+/* .post__wrapper__center__postText {
+} */
+
+.post__wrapper__center__postImage {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.post__wrapper__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__wrapper__bottom__left {
+  display: flex;
+  align-items: center;
+}
+
+.post__wrapper__bottom__left__iconContainer1 {
+  width: 24px;
+  height: 24px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.post__wrapper__bottom__left__iconContainer1__icon {
+  height: 18px !important;
+  width: 18px !important;
+}
+
+.post__wrapper__bottom__left__iconContainer2 {
+  width: 24px;
+  height: 24px;
+  background-color: #e75480;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.post__wrapper__bottom__left__iconContainer2__icon {
+  height: 18px !important;
+  width: 18px !important;
+}
+
+.post__wrapper__bottom__left__postLikeCounterText {
+  font-size: 15px;
+}
+
+/* .post__wrapper__bottom__right {
+} */
+
+.post__wrapper__bottom__right__commentText {
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  font-size: 15px;
+}

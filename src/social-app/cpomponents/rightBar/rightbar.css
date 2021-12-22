@@ -1,0 +1,73 @@
+.rightBar {
+  flex: 3.5;
+}
+
+.rightBar__wrapper {
+  padding: 20px 20px 0 20px;
+}
+
+.rightBar__wrapper__birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightBar__wrapper__birthdayContainer__birthdayImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rightBar__wrapper__birthdayContainer__birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightBar__wrapper__add {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.rightBar__wrapper__onlineFirends {
+  margin: 20px 0;
+}
+
+.rightBar__wrapper__onlineFirendsList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightBar__wrapper__onlineFirendContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rightBar__wrapper__onlineFirendContainer__imageContainer {
+  display: flex;
+  position: relative;
+  margin-right: 10px;
+}
+
+.rightBar__wrapper__onlineFirendContainer__imageContainer__profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightBar__wrapper__onlineFirendContainer__imageContainer__onlineBadge {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightBar__wrapper__onlineFirendContainer__userName {
+  font-weight: bold;
+}

@@ -1,0 +1,81 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.77);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.77);
+}
+
+.share__wrapper {
+  padding: 10px;
+}
+
+.share__wrapper__top {
+  display: flex;
+  align-items: center;
+}
+
+.share__wrapper__top__profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.share__wrapper__top__input {
+  border: none;
+  width: 80%;
+}
+
+.share__wrapper__top__input:focus {
+  outline: none;
+}
+
+.share__wrapper__hr {
+  margin: 20px;
+}
+
+.share__wrapper__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shar__wrapper__bottom__options {
+  display: flex;
+  margin-left: 20px;
+}
+
+.shar__wrapper__bottom__options__option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.shar__wrapper__bottom__options__option__icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.shar__wrapper__bottom__options__option__text {
+  font-style: 14px;
+  font-weight: bold;
+}
+
+.share__wrapper__bottom__button {
+  border: none;
+  padding: 7px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.share__wrapper__bottom__button:hover {
+  opacity: 1;
+  cursor: pointer;
+}

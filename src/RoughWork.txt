@@ -1,0 +1,41 @@
+
+// Used Google Fonts - global (*)
+
+    // go to - 'google Fonts'
+        // choose any fonts, 'like - poppins 400'
+            // click on - 'view your selcted families'
+                // copy 'Link' of fonts
+                    // paste into 'index.htl'
+                        // Last step is = use font family in globally (*) ==> used font family
+
+============================================================================================================================>
+
+// install - npm install @material-ui/core
+
+// install - npm install @material-ui/icons
+
+========================================================================>
+
+// Create - 'navbar - component'
+
+========================================================================>
+
+// Create - 'leftBar'   'feed'  'rightBar'
+
+=========================================>
+
+    // 'LeftBar - component'
+
+=========================================>
+
+    // 'Feed - component'
+
+        // create - 'Share - component'
+
+        // create - 'Post - component'
+
+=========================================>
+
+    // 'RightBar - component'
+
+=========================================>
